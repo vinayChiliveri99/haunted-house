@@ -91,7 +91,6 @@ house.add(walls)
 
 
 // roof kind of pyramid, so we use cone.
-roofColorTexture.colorSpace = THREE.SRGBColorSpace
 const roof = new THREE.Mesh(
     new THREE.ConeGeometry(3.5, 1.5, 4),
     new THREE.MeshStandardMaterial({ color: 'red' })
