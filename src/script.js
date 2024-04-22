@@ -7,7 +7,8 @@ import GUI from 'lil-gui'
  */
 // Debug
 const gui = new GUI({
-    width: 340
+    width: 340,
+    closeFolders: true,
 })
 
 // Canvas
